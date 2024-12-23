@@ -1,0 +1,40 @@
+@media (max-width: 900px) {
+  .nav {
+    gap: 20px;
+  }
+}
+@media (max-width: 850px) {
+  .nav {
+    gap: 15px;
+  }
+  .logo {
+    margin-left: 50px;
+  }
+  .nav {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .nav {
+    gap: 10px;
+  }
+  .logo {
+    margin-left: 40px;
+  }
+  .nav {
+    margin-right: 40px;
+  }
+}
+@media (max-width: 700px) {
+  .nav {
+    display: none;
+  }
+  .bars {
+    display: flex;
+  }
+}
+@media (max-width: 550px) {
+  .logo {
+    margin-left: 30px;
+  }
+}
