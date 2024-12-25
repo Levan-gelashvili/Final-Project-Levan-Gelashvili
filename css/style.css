@@ -2,6 +2,10 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+.container1 {
+  max-width: 1300px;
+  margin: 0 auto;
+}
 
 .s1 {
   background-image: url(../images/tusha.jpg);
@@ -9,6 +13,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25% 50%;
+  margin-bottom: 150px;
 }
 .logo {
   display: flex;
@@ -76,4 +81,31 @@ header {
 }
 .nav a:hover {
   color: rgb(194, 18, 18);
+}
+footer {
+  background: #212529;
+  width: 100%;
+  height: 400px;
+  margin-top: 150px;
+}
+h3 {
+  color: #fff;
+  font-family: Lora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.con a {
+  color: #e5e5e5;
+  font-family: Lora;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
