@@ -1,3 +1,9 @@
+@media (max-width: 1330px) {
+  .infodiv {
+    width: 95%;
+    padding-left: 30px;
+  }
+}
 @media (max-width: 900px) {
   .nav {
     gap: 20px;
@@ -24,6 +30,21 @@
   .nav {
     margin-right: 40px;
   }
+  .infodiv {
+    gap: 40px;
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+  }
+  .info {
+    text-align: center;
+  }
+  .info h2 {
+    font-size: 30px;
+  }
+  .info h4 {
+    font-size: 14px;
+  }
 }
 @media (max-width: 700px) {
   .nav {
@@ -32,9 +53,45 @@
   .bars {
     display: flex;
   }
+  .infodiv {
+    justify-content: center;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .info h2 {
+    font-size: 24px;
+  }
+  .info h4 {
+    font-size: 10px;
+  }
 }
 @media (max-width: 550px) {
   .logo {
     margin-left: 30px;
+  }
+
+  .info h2 {
+    margin-left: 20px;
+  }
+  .info h4 {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .info h2 {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  .info h4 {
+    font-size: 8px;
+  }
+}
+@media (max-width: 430px) {
+  .infodiv {
+    padding-top: 60px;
+  }
+  .exp {
+    display: none;
   }
 }
