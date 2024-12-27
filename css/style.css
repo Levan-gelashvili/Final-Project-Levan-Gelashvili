@@ -15,7 +15,6 @@ body {
   max-width: 1300px;
   margin: 0 auto;
 }
-
 .s1 {
   background-image: url(../images/tusha.jpg);
   background-color: red;
@@ -32,7 +31,6 @@ body {
   margin-left: 70px;
   margin-top: 10px;
 }
-
 .logo a {
   color: #f8f9fa;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -41,6 +39,9 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.logo a:hover {
+  color: rgb(18, 109, 194);
 }
 
 header {
@@ -56,7 +57,6 @@ header {
     rgba(0, 213, 255, 0.548) 100%
   );
 }
-
 .info {
   display: flex;
   flex-direction: column;
@@ -82,6 +82,9 @@ header {
   font-family: Roboto;
   font-size: 12px;
 }
+button:hover {
+  background-color: rgb(42, 27, 131);
+}
 .info h2 {
   color: #fff;
   font-family: Lora;
@@ -102,6 +105,9 @@ header {
 }
 .log {
   width: 50px;
+}
+.log:hover {
+  opacity: 50%;
 }
 
 .nav {
@@ -126,24 +132,107 @@ header {
 .lo {
   width: 30px;
 }
+
+.lo:hover {
+  opacity: 50%;
+}
+
 .logg {
   width: 75px;
+}
+.logg:hover {
+  opacity: 50%;
 }
 .tb {
   width: 38px;
 }
+.tb:hover {
+  opacity: 50%;
+}
 .fa-solid {
   color: #fff;
+}
+.fa-solid:hover {
+  opacity: 50%;
+  cursor: pointer;
 }
 .bars {
   display: none;
   margin-right: 40px;
 }
-.logo a:hover {
-  color: rgb(18, 109, 194);
-}
 .nav a:hover {
   color: rgb(194, 18, 18);
+}
+
+.s2 h2 {
+  color: #ffffff;
+  font-family: Lora;
+  font-size: 36px;
+  font-weight: 700;
+}
+.oly {
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.oly img {
+  height: 30px;
+}
+.card1 {
+  height: 450px;
+  width: 310px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card1 img {
+  width: 310px;
+}
+.card1 h6 {
+  color: #6c757d;
+  font-family: Lora;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.card1 h2 {
+  color: #495057;
+  font-family: Lora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.card2 {
+  height: 450px;
+  width: 310px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card2 img {
+  height: 280x;
+  width: 310px;
+}
+.card2 h6 {
+  color: #6c757d;
+  font-family: Lora;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.card2 h2 {
+  color: #495057;
+  font-family: Lora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
 }
 footer {
   background-image: url(../images/foterbg.jpg);
@@ -183,6 +272,9 @@ h3 {
   font-weight: 400;
   line-height: normal;
 }
+.con a:hover {
+  color: #ff7300;
+}
 .exp {
   display: flex;
   flex-direction: column;
@@ -196,6 +288,9 @@ h3 {
   font-weight: 400;
   line-height: normal;
 }
+.exp a:hover {
+  color: #ff7300;
+}
 .loc {
   display: flex;
   flex-direction: column;
@@ -208,6 +303,9 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.loc a:hover {
+  color: #ff7300;
 }
 .conn {
   display: flex;
@@ -243,4 +341,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+.fa-brands:hover {
+  opacity: 50%;
 }
