@@ -4,6 +4,12 @@
     padding-left: 30px;
   }
 }
+@media (max-width: 1300px) {
+  .cards {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
 @media (max-width: 900px) {
   .nav {
     gap: 20px;
