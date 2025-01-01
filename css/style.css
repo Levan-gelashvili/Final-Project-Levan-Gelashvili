@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
 }
 .s1 {
-  background-image: url(../images/tusha.jpg);
+  background-image: url(../images/tushabg.jpg);
   background-color: red;
   height: 650px;
   background-repeat: no-repeat;
@@ -56,6 +56,17 @@ header {
     rgba(9, 9, 121, 0.4) 50%,
     rgba(0, 213, 255, 0.548) 100%
   );
+}
+.unl {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.atag {
+  border-radius: 5px;
+  height: 2px;
+  width: 35px;
+  background: #d4a373;
 }
 .info {
   display: flex;
@@ -147,6 +158,12 @@ header {
   width: 38px;
 }
 .tb:hover {
+  opacity: 50%;
+}
+.tb1 {
+  width: 33px;
+}
+.tb1:hover {
   opacity: 50%;
 }
 .fa-solid {
@@ -788,7 +805,15 @@ header {
   font-weight: 400;
   line-height: 20px;
 }
-
+.s5 {
+  background-image: url(../images/ssardala.jpg);
+  background-color: red;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 40%;
+  margin-bottom: 150px;
+}
 footer {
   background-image: url(../images/foterbg.jpg);
   background-color: blueviolet;
@@ -796,7 +821,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 60%;
-  width: 100%;
+  width: 100vw;
   height: 400px;
   margin-top: 150px;
 }
