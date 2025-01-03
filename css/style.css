@@ -6,6 +6,7 @@ body {
     rgb(53, 30, 30) 50%,
     rgba(0, 0, 0, 1) 100%
   );
+  overflow: hidden;
 }
 .container {
   max-width: 1440px;
@@ -1242,7 +1243,7 @@ header {
   font-weight: 400;
   line-height: normal;
 }
-.car8 h2{
+.car8 h2 {
   color: #fff;
   width: 270px;
   margin-left: 20px;
@@ -1251,6 +1252,107 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: 25px;
+}
+.s7 {
+  background-image: url(../images/noza.jpg);
+  background-color: rgb(36, 14, 14);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 55% 10%;
+  margin-bottom: 150px;
+}
+.titll h2 {
+  color: #33ff00;
+  font-family: Lora;
+  font-size: 36px;
+  font-weight: 700;
+}
+.cardss1 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.bekaur1 {
+  max-width: 640px;
+  height: 350px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 70px;
+  display: flex;
+  position: relative;
+  background-color: #0000004f;
+}
+.bekaur1 img {
+  max-width: 640px;
+}
+.bekaur2 {
+  max-width: 640px;
+  height: 350px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 70px;
+  display: flex;
+  position: relative;
+  background-color: #0000004f;
+}
+.bekaur2 img {
+  max-width: 640px;
+}
+.bek1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.butto {
+  padding-left: 435px;
+  padding-top: 25px;
+  display: flex;
+  gap: 10px;
+}
+.butto button {
+  border: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  padding: 5px 10px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: rgba(148, 89, 89, 0.575);
+}
+.butto button:hover {
+  cursor: pointer;
+  background-color: rgb(42, 27, 131);
+}
+.bek1 h6 {
+  color: #e5e5e5;
+  font-family: Lora;
+  font-size: 14px;
+  padding-top: 100px;
+  margin-left: 40px;
+  font-weight: 400;
+}
+.bek1 h2 {
+  color: #fff;
+  width: 270px;
+  margin-left: 40px;
+  font-family: Lora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.bek1 h4 {
+  width: 340px;
+  color: #e5e5e5;
+  font-family: Lora;
+  margin-left: 40px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 footer {
