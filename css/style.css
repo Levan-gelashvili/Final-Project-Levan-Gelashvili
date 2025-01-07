@@ -6,7 +6,7 @@ body {
     rgb(53, 30, 30) 50%,
     rgba(0, 0, 0, 1) 100%
   );
- overflow-x: hidden;
+  overflow-x: hidden;
 }
 .container {
   max-width: 1440px;
@@ -14,6 +14,10 @@ body {
 }
 .container1 {
   max-width: 1300px;
+  margin: 0 auto;
+}
+.container2 {
+  max-width: 860px;
   margin: 0 auto;
 }
 .s1 {
@@ -1350,6 +1354,232 @@ header {
   color: #e5e5e5;
   font-family: Lora;
   margin-left: 40px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.s9 {
+  background-image: url(../images/sshaviii.jpg);
+  background-color: red;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 70%;
+  margin-bottom: 100px;
+}
+.s10 {
+  background-color: #0000002a;
+  border-radius: 8px;
+  margin: 0px 10px 150px 10px;
+}
+.s10 p {
+  color: #7e8081;
+  font-family: Lora;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 840px;
+  line-height: 25px;
+  padding: 30px;
+}
+p span {
+  color: #f3cba4;
+  font-family: Lora;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+.osf {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.olys {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 90px;
+  margin-left: 10px;
+}
+.olys h2 {
+  color: #ffffff;
+  font-family: Lora;
+  font-size: 36px;
+  font-weight: 700;
+}
+.olys img {
+  height: 30px;
+}
+
+.margv {
+  height: 350px;
+  width: 420px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+.margv img {
+  width: 420px;
+}
+.margv1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 30px;
+  bottom: 42px;
+}
+.margv1 button {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 9px;
+  margin-top: 180px;
+  border: none;
+  background: rgba(58, 43, 43, 0.603);
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  top: 25px;
+  margin-left: 270px;
+  margin-bottom: 90px;
+}
+.margv1 button:hover {
+  background-color: rgb(42, 27, 131);
+}
+.margv1 h6 {
+  color: #e5e5e5;
+  font-family: Lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+.margv1 h2 {
+  color: #fff;
+  font-family: Lora;
+  width: 270px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.margv1 h4 {
+  color: #e5e5e5;
+  font-family: Lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.shavi {
+  height: 350px;
+  width: 420px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+.shavi img {
+  width: 420px;
+}
+.shavi1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 30px;
+  bottom: 42px;
+}
+.shavi1 button {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 9px;
+  margin-top: 180px;
+  border: none;
+  background: rgba(58, 43, 43, 0.603);
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  top: 25px;
+  margin-left: 270px;
+  margin-bottom: 90px;
+}
+.shavi1 button:hover {
+  background-color: rgb(42, 27, 131);
+}
+.shavi1 h6 {
+  color: #e5e5e5;
+  font-family: Lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+.shavi1 h2 {
+  color: #fff;
+  font-family: Lora;
+  width: 270px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.shavi1 h4 {
+  color: #e5e5e5;
+  font-family: Lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.lb {
+  height: 350px;
+  width: 420px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+.lb img {
+  width: 420px;
+}
+.lb1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 30px;
+  bottom: 42px;
+}
+.lb1 button {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 9px;
+  margin-top: 180px;
+  border: none;
+  background: rgba(58, 43, 43, 0.603);
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  top: 25px;
+  margin-left: 270px;
+  margin-bottom: 90px;
+}
+.lb1 button:hover {
+  background-color: rgb(42, 27, 131);
+}
+.lb1 h6 {
+  color: #e5e5e5;
+  font-family: Lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+.lb1 h2 {
+  color: #fff;
+  font-family: Lora;
+  width: 270px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.lb1 h4 {
+  color: #e5e5e5;
+  font-family: Lora;
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
