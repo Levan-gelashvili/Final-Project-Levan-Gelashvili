@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
 }
 .container2 {
-  max-width: 860px;
+  max-width: 870px;
   margin: 0 auto;
 }
 .s1 {
@@ -1382,13 +1382,6 @@ header {
   line-height: 25px;
   padding: 30px;
 }
-p span {
-  color: #f3cba4;
-  font-family: Lora;
-  font-size: 30px;
-  line-height: 35px;
-  font-weight: 700;
-}
 
 .osf {
   display: flex;
@@ -1583,6 +1576,64 @@ p span {
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
+}
+.s12 {
+  background-image: url(../images/grigala.jpg);
+  background-color: red;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 150px;
+}
+
+.s13 {
+  background-color: #0000002a;
+  border-radius: 8px;
+  margin: 0px 10px 150px 10px;
+}
+.s13 p {
+  color: #7e8081;
+  font-family: Lora;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 840px;
+  line-height: 25px;
+  padding: 30px;
+}
+p span {
+  color: #f3cba4;
+  font-family: Lora;
+  font-size: 27px;
+  line-height: 35px;
+  font-weight: 700;
+}
+.imgflex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.imgflex img {
+  width: 400px;
+  border-radius: 5px;
+}
+.hgt {
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.hgt img {
+  width: 100px;
+}
+.hgt h2 {
+  color: #ffffff;
+  font-family: Lora;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 25px;
 }
 
 footer {

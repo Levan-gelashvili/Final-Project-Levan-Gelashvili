@@ -235,6 +235,8 @@
   .lb1 h2 {
     width: 210px;
   }
+  .imgflex img{
+    width: 300px;
 }
 @media (max-width: 450px) {
   .bekaur1 {
