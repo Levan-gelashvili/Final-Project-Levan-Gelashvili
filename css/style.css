@@ -48,7 +48,7 @@ body {
 .s1 {
   background-image: url(../images/tushabg.jpg);
   background-color: red;
-  height: 650px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25% 50%;
@@ -1011,12 +1011,12 @@ header {
   line-height: 20px;
 }
 .s5 {
-  background-image: url(../images/ssardala.jpg);
+  background-image: url(../images/s4rdala.jpg);
   background-color: red;
-  height: 650px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 10% 40%;
+  background-position: 60% 40%;
   margin-bottom: 150px;
 }
 .title {
