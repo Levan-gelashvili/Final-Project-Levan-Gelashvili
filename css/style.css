@@ -231,7 +231,7 @@ header {
 .nav a:hover {
   color: rgb(18, 109, 194);
   font-size: 14px;
-  rotate: -5deg;
+  rotate: -2deg;
 }
 .di {
   width: 0.1px;
