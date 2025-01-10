@@ -41,6 +41,10 @@ body {
   max-width: 870px;
   margin: 0 auto;
 }
+.container3 {
+  max-width: 400px;
+  margin: 0 auto;
+}
 .s1 {
   background-image: url(../images/tushabg.jpg);
   background-color: red;
@@ -66,12 +70,12 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  transition: 0.4s;
 }
 .logo a:hover {
-  opacity: 80%;
+  font-size: 24px;
+  color: #729cc7;
 }
 
 header {
@@ -106,6 +110,32 @@ header {
     rgba(9, 9, 121, 0.4) 50%,
     rgba(0, 213, 255, 0.548) 100%
   );
+}
+.fixed {
+  position: sticky;
+  margin-top: 90px;
+  bottom: 0px;
+  left: 0px;
+  display: none;
+  height: 50px;
+  max-width: 700px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgba(32, 51, 49, 0.9) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  z-index: 10;
+}
+.container3 i {
+  font-size: 20px;
+  color: rgb(18, 109, 194);
+  transition: 0.3s;
+}
+.container3 i:hover {
+  color: rgb(127, 252, 246);
+  font-size: 20px;
 }
 .unl {
   display: -webkit-box;
@@ -146,9 +176,11 @@ header {
   color: #fff;
   font-family: Roboto;
   font-size: 12px;
+  transition: 0.2s;
 }
 .info button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .info h2 {
   color: #fff;
@@ -170,9 +202,13 @@ header {
 }
 .log {
   width: 50px;
+  opacity: 80%;
+  transition: 0.3s;
 }
 .log:hover {
-  opacity: 80%;
+  opacity: 100%;
+  rotate: -10deg;
+  width: 60px;
 }
 
 .nav {
@@ -189,12 +225,13 @@ header {
   color: #fff;
   font-family: Roboto;
   font-size: 12px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  transition: 0.2s;
 }
 .nav a:hover {
   color: rgb(18, 109, 194);
+  font-size: 14px;
+  rotate: -5deg;
 }
 .di {
   width: 0.1px;
@@ -203,17 +240,25 @@ header {
 }
 .lo {
   width: 30px;
+  opacity: 80%;
+  transition: 0.3s;
 }
 
 .lo:hover {
-  opacity: 50%;
+  opacity: 100%;
+  rotate: -10deg;
+  width: 40px;
 }
 
 .logg {
   width: 75px;
+  opacity: 80%;
+  transition: 0.3s;
 }
 .logg:hover {
-  opacity: 50%;
+  opacity: 100%;
+  rotate: -5deg;
+  width: 85px;
 }
 .tb {
   width: 38px;
@@ -315,9 +360,11 @@ header {
   font-size: 13px;
   font-family: Lora;
   color: rgba(255, 255, 255, 0.589);
+  transition: 0.2s;
 }
 .card1 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .card2 {
   display: -webkit-box;
@@ -365,9 +412,11 @@ header {
   font-size: 13px;
   font-family: Lora;
   color: rgba(255, 255, 255, 0.589);
+  transition: 0.2s;
 }
 .card2 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .card3 {
   display: -webkit-box;
@@ -415,9 +464,11 @@ header {
   font-size: 13px;
   font-family: Lora;
   color: rgba(255, 255, 255, 0.589);
+  transition: 0.2s;
 }
 .card3 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .card4 {
   display: -webkit-box;
@@ -465,9 +516,11 @@ header {
   font-size: 13px;
   font-family: Lora;
   color: rgba(255, 255, 255, 0.589);
+  transition: 0.2s;
 }
 .card4 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .card5 {
   display: -webkit-box;
@@ -515,9 +568,11 @@ header {
   font-size: 13px;
   font-family: Lora;
   color: rgba(255, 255, 255, 0.589);
+  transition: 0.2s;
 }
 .card5 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .card6 {
   display: -webkit-box;
@@ -565,9 +620,11 @@ header {
   font-size: 13px;
   font-family: Lora;
   color: rgba(255, 255, 255, 0.589);
+  transition: 0.2s;
 }
 .card6 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .card7 {
   display: -webkit-box;
@@ -615,9 +672,11 @@ header {
   font-size: 13px;
   font-family: Lora;
   color: rgba(255, 255, 255, 0.589);
+  transition: 0.2s;
 }
 .card7 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .card8 {
   display: -webkit-box;
@@ -665,9 +724,11 @@ header {
   font-size: 13px;
   font-family: Lora;
   color: rgba(255, 255, 255, 0.589);
+  transition: 0.2s;
 }
 .card8 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .s3 {
   background-image: url(../images/tushas2.jpg);
@@ -702,9 +763,11 @@ header {
   color: #fff;
   font-family: Roboto;
   font-size: 12px;
+  transition: 0.2s;
 }
 .info1 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .info1 h2 {
   color: #fff;
@@ -789,9 +852,11 @@ header {
   top: 25px;
   margin-left: 270px;
   margin-bottom: 90px;
+  transition: 0.2s;
 }
 .lukh1 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 14px;
 }
 .lukh1 h6 {
   color: #e5e5e5;
@@ -852,9 +917,11 @@ header {
   top: 25px;
   margin-left: 270px;
   margin-bottom: 90px;
+  transition: 0.2s;
 }
 .maisa1 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 14px;
 }
 .maisa1 h6 {
   color: #e5e5e5;
@@ -915,9 +982,11 @@ header {
   top: 25px;
   margin-left: 270px;
   margin-bottom: 90px;
+  transition: 0.2s;
 }
 .tusha1 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 14px;
 }
 .tusha1 h6 {
   color: #e5e5e5;
@@ -979,9 +1048,11 @@ header {
   font-weight: 700;
   line-height: 25px;
   margin-left: 15px;
+  transition: 0.2s;
 }
 .in a:hover {
   color: rgb(42, 27, 131);
+  font-size: 16px;
 }
 .cardss {
   display: -webkit-box;
@@ -1027,19 +1098,20 @@ header {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .car1 button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  rotate: 4deg;
+  font-size: 14px;
 }
 .car1 h5 {
   color: #e5e5e5;
   font-family: Lora;
   font-size: 14px;
   margin-left: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .car1 h2 {
   color: #fff;
@@ -1090,10 +1162,13 @@ header {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .car2 button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  rotate: 4deg;
+  font-size: 14px;
 }
 .car2 h5 {
   color: #e5e5e5;
@@ -1152,10 +1227,13 @@ header {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .car3 button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  rotate: 4deg;
+  font-size: 14px;
 }
 .car3 h5 {
   color: #e5e5e5;
@@ -1214,10 +1292,13 @@ header {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .car4 button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  rotate: 4deg;
+  font-size: 14px;
 }
 .car4 h5 {
   color: #e5e5e5;
@@ -1276,10 +1357,13 @@ header {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .car5 button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  rotate: 4deg;
+  font-size: 14px;
 }
 .car5 h5 {
   color: #e5e5e5;
@@ -1338,10 +1422,13 @@ header {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .car6 button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  rotate: 4deg;
+  font-size: 14px;
 }
 .car6 h5 {
   color: #e5e5e5;
@@ -1400,10 +1487,13 @@ header {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .car7 button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  rotate: 4deg;
+  font-size: 14px;
 }
 .car7 h5 {
   color: #e5e5e5;
@@ -1462,10 +1552,13 @@ header {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .car8 button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  rotate: 4deg;
+  font-size: 14px;
 }
 .car8 h5 {
   color: #e5e5e5;
@@ -1580,10 +1673,12 @@ header {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(148, 89, 89, 0.575);
+  transition: 0.3s;
 }
 .butto button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .bek1 h6 {
   color: #e5e5e5;
@@ -1702,9 +1797,11 @@ header {
   top: 25px;
   margin-left: 270px;
   margin-bottom: 90px;
+  transition: 0.3s;
 }
 .margv1 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .margv1 h6 {
   color: #e5e5e5;
@@ -1765,9 +1862,11 @@ header {
   top: 25px;
   margin-left: 270px;
   margin-bottom: 90px;
+  transition: 0.3s;
 }
 .shavi1 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .shavi1 h6 {
   color: #e5e5e5;
@@ -1827,9 +1926,11 @@ header {
   top: 25px;
   margin-left: 270px;
   margin-bottom: 90px;
+  transition: 0.3s;
 }
 .lb1 button:hover {
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .lb1 h6 {
   color: #e5e5e5;
@@ -1968,10 +2069,12 @@ p span {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .ete button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .ete h6 {
   color: #e5e5e5;
@@ -2031,10 +2134,12 @@ p span {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .m4rgvela button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .m4rgvela h6 {
   color: #e5e5e5;
@@ -2094,10 +2199,12 @@ p span {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .gr1gala button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .gr1gala h6 {
   color: #e5e5e5;
@@ -2157,10 +2264,12 @@ p span {
   font-weight: 700;
   border-radius: 8px;
   background: rgba(71, 38, 38, 0.342);
+  transition: 0.3s;
 }
 .bek4uri button:hover {
   cursor: pointer;
   background-color: rgb(42, 27, 131);
+  font-size: 15px;
 }
 .bek4uri h6 {
   color: #e5e5e5;
@@ -2232,9 +2341,8 @@ h3 {
   color: #e5e5e5;
   font-family: Lora;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  transition: 0.3s;
 }
 .con a:hover {
   color: #ff7300;
@@ -2253,9 +2361,8 @@ h3 {
   color: #e5e5e5;
   font-family: Lora;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  transition: 0.3s;
 }
 .exp a:hover {
   color: #ff7300;
@@ -2274,9 +2381,9 @@ h3 {
   color: #e5e5e5;
   font-family: Lora;
   font-size: 12px;
-  font-style: normal;
+  line-height: 15px;
   font-weight: 400;
-  line-height: normal;
+  transition: 0.3s;
 }
 .loc a:hover {
   color: #ff7300;

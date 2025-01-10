@@ -142,6 +142,15 @@
     align-items: center;
     gap: 20px;
   }
+  .fixed {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .container3 {
+    display: flex;
+    gap: 65px;
+  }
   .infodiv {
     justify-content: center;
     padding-top: 30px;
@@ -232,13 +241,14 @@
     width: 310px;
   }
   .margv1 button {
-    margin-left: 165px;
+    margin-left: 155px;
   }
   .shavi {
     width: 310px;
   }
   .shavi1 button {
-    margin-left: 165px;
+    margin-left: 155px;
+    margin-bottom: 70px;
   }
   .shavi1 h2 {
     width: 200px;
@@ -247,7 +257,7 @@
     width: 310px;
   }
   .lb1 button {
-    margin-left: 165px;
+    margin-left: 155px;
   }
   .lb1 h2 {
     width: 210px;
